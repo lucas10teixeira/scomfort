@@ -1,0 +1,219 @@
+@media (max-width: 415px) {
+
+    /* Altera a largura da parte de baixo do site, quando vai pro iphone xr o width fica em 300% */
+    footer {
+
+        width: 300%;
+    }
+
+    /* Altera a parte de cima "header" para 300% no iphoneXR */
+    header {
+
+        width: 300%;
+        font-size: 25px;
+
+
+    }
+
+
+    /* barra cinza abaixo do nav */
+    .desconto {
+
+        font-size: 20px;
+        margin-left: 60vh;
+        width: 30vh;
+    }
+
+    /* Titulo */
+    h1 {
+        margin-top: 20vh;
+        margin-left: 60vw;
+        font-size: 60px;
+
+
+    }
+
+    /* Primeiro Texto */
+    #paragrafo1 {
+
+        margin-top: 35vh;
+        margin-left: -80vw;
+        font-size: 35px;
+        margin-right: 10vw;
+
+
+    }
+
+    /* Altera a divisao da primeira tela imagem e texto para o iphone */
+    #inicio {
+        width: 120%;
+    }
+
+    /* Aba de sobre */
+    #sobre {
+
+        width: 300%;
+    }
+
+    /* palavra sobre */
+    #psobre {
+
+
+        margin-top: 30vh;
+
+    }
+
+    /* logo */
+    #logo {
+
+        width: 80vw;
+
+    }
+
+    /* Texto do sobre */
+    #textsobre {
+
+        margin-top: 55vh;
+        font-size: 40px;
+
+    }
+
+    /* Cards dos tenis */
+    #populares {
+
+
+        background-color: rgb(255, 255, 224);
+        width: 300vw;
+
+    }
+
+    /* titulo "modelos populares" */
+    #mpopulares {
+
+
+        width: 120vh;
+        font-size: 35px;
+
+    }
+
+    /* Card tenis */
+    .container-roupas {
+
+        font-size: 25px;
+        align-items: baseline;
+
+    }
+
+    /* Titulo "fique ligado" */
+    #fiqueligado {
+        font-size: 50px;
+        margin-left: 20vh;
+
+    }
+
+    /* formulario */
+    #formulario {
+        display: flex;
+        height: 150vh;
+
+
+
+    }
+
+    /* texto fiqueligado */
+    #textfiqueligado {
+
+        font-size: 40px;
+        margin-top: 10vh;
+
+    }
+
+    /* parte esquerda */
+    #esquerdafiqueligado {
+        margin-left: 10vw;
+        margin-top: 45vh;
+        width: 100%
+    }
+
+    /* parte direita */
+    #direitafiqueligado {
+        margin-left: 100vw;
+        margin-top: 60vh;
+
+    }
+
+    /* botao enviar */
+    #enviar {
+
+        background-color: rgb(255, 189, 67);
+        margin-top: 100vh;
+        height: 50px;
+        border-radius: 5px;
+        font-size: 25px;
+    }
+
+    /* Input do formulario ( nome, sobrenome) */
+    #preencher {
+        height: 10vh;
+        width: 70vw;
+        font-size: 40px;
+
+        padding: 10px;
+    }
+
+    /* input email */
+    #preencheremail {
+        height: 10vh;
+        border-radius: 5px;
+        width: 50vw;
+        padding: 5px;
+        font-size: 40px;
+    }
+
+    /* titulo "conhecamais" */
+    #conhecamais {
+
+        font-size: 45px;
+        font-weight: bold;
+        margin-top: 25vh;
+        margin-left: 2vw;
+
+    }
+
+    /* texto footer */
+    #logoabaixo {
+        font-size: 40px;
+        margin-top: 8vh;
+        width: 80%;
+        margin-left: 2vw;
+    }
+
+    /* imagem tenis de baixo */
+    #imgfooter {
+        margin-left: -15vw;
+        margin-top: 15vh;
+
+
+    }
+
+    /* texto "todos os direitos reservados" */
+    #direitosreservados {
+
+        font-size: 30px;
+        margin-top: -5vh;
+    }
+
+    /* icone facebook */
+    #facebook {
+        width: 25vw;
+        height: 10vh;
+        margin-top: 8vh;
+    }
+
+    /* icone X */
+    #x {
+        width: 30vw;
+        height: 8vh;
+        margin-top: 10vh;
+    }
+}
