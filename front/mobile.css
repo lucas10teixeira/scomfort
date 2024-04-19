@@ -16,6 +16,20 @@
     }
 
 
+    /* opcoes da pagina */
+
+li {
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 40px;
+}
+
+/* remove os pontos da lista */
+ul {
+    list-style: none;
+}
+
+
     /* barra cinza abaixo do nav */
     .desconto {
 
@@ -153,21 +167,29 @@
     }
 
     /* Input do formulario ( nome, sobrenome) */
-    #preencher {
-        height: 10vh;
-        width: 70vw;
-        font-size: 40px;
-
-        padding: 10px;
+    #nome {
+        height: 5vh;
+    border-radius: 5px;
+    width: 20vw;
+    padding: 5px;
+    font-size: 20px;
+    }
+    
+    #sobrenome{
+        height: 5vh;
+        border-radius: 5px;
+        width: 28.6vw;
+        padding: 5px;
+        font-size: 20px;
     }
 
     /* input email */
     #preencheremail {
-        height: 10vh;
+        height: 5vh;
         border-radius: 5px;
         width: 50vw;
         padding: 5px;
-        font-size: 40px;
+        font-size: 20px;
     }
 
     /* titulo "conhecamais" */
